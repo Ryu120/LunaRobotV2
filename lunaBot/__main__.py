@@ -482,12 +482,12 @@ def luna_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Alina", url="https://t.me/rizexx"),
-                    InlineKeyboardButton(text="Nao", url="https://t.me/xgothboi"),
+                    InlineKeyboardButton(text="Komi - San", url="https://t.me/KomiXryu_Bot"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/Komisansupport"),
                  ],
                  [
-                    InlineKeyboardButton(text="Yui", url="https://t.me/Badboyanim"),
-                    InlineKeyboardButton(text="Luna", url="https://t.me/tdrki_1"),
+                    InlineKeyboardButton(text="亗 ʀʏᴜ", url="https://t.me/Ryu_God"),
+                    InlineKeyboardButton(text="Ot", url="https://t.me/Otaku_zon"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="luna_basichelp"),
@@ -503,7 +503,7 @@ def luna_about_callback(update, context):
                  f"\nYou can add me to your group by clicking this link and selecting the chat.\n"
                  f"\nRead Admin Permissions and Anti-spam for basic info.\n"
                  f"\nRead Detailed Setup Guide to learn about setting up the bot in detail. (Recommended)\n"
-                 f"\nIf you do need help with further instructions feel free to ask in @lunaXresso.",
+                 f"\nIf you do need help with further instructions feel free to ask in @Komisansupport.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -523,11 +523,11 @@ def luna_about_callback(update, context):
     elif query.data == "luna_asu":
         query.message.edit_text(
             text=f"｢ Admin Permissions 」\n"
-                     f"\nTo avoid slowing down, Luna caches admin rights for each user. This cache lasts about 10 minutes; this may change in the future. This means that if you promote a user manually (without using the /promote command), Luna will only find out ~10 minutes later.\n"
+                     f"\nTo avoid slowing down, Madara caches admin rights for each user. This cache lasts about 10 minutes; this may change in the future. This means that if you promote a user manually (without using the /promote command), Madara will only find out ~10 minutes later.\n"
                     f"\nIf you want to update them immediately, you can use the /admincache or /reload command, that'll force Luna to check who the admins are again and their permissions\n"
                     f"\nIf you are getting a message saying:\nYou must be this chat administrator to perform this action!\n"
-                    f"\nThis has nothing to do with Luna's rights; this is all about YOUR permissions as an admin. Luna respects admin permissions; if you do not have the Ban Users permission as a telegram admin, you won't be able to ban users with Luna. Similarly, to change Luna settings, you need to have the Change group info permission.\n"
-                    f"\nThe message very clearly states that you need these rights - not Luna.",
+                    f"\nThis has nothing to do with Madara's rights; this is all about YOUR permissions as an admin. Madara respects admin permissions; if you do not have the Ban Users permission as a telegram admin, you won't be able to ban users with Madara. Similarly, to change Madara settings, you need to have the Change group info permission.\n"
+                    f"\nThe message very clearly states that you need these rights - not Madara.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -539,7 +539,7 @@ def luna_about_callback(update, context):
         query.message.edit_text(
             text=f"｢ Anti-Spam Settings 」\n"
                      f"\nAntispam: "
-                     f"\nBy enabling this, you can protect your groups free from scammers/spammers.\nRun /antispam on in your chat to enable.\nAppeal Chat: @lunaXresso\n"
+                     f"\nBy enabling this, you can protect your groups free from scammers/spammers.\nRun /antispam on in your chat to enable.\nAppeal Chat: @Komisansupport\n"
                      f"\n✪ Anti-Flood allows you to keep your chat clean from flooding."
                      f"\n✪ With the help of Blaclists you can blacklist words,sentences and stickers which you don't want to be used by group members."
                      f"\n✪ By enabling Reports, admins get notified when users reports in chat."
@@ -560,7 +560,7 @@ def luna_about_callback(update, context):
                 f"\n✪ If someone is spamming your group, you can use report feature from your Telegram Client."
                 f"\n✪ Make sure antiflood is enabled, so that users cannot flood/spam your chat."
                 f"\n✪ Do not spam commands, buttons, or anything in bot PM, else you will be Ignored by bot or Gbanned."
-                f"\n✪ If you need to ask anything about this bot or you need help, reach us at @lunaXresso"
+                f"\n✪ If you need to ask anything about this bot or you need help, reach us at @Komisansupport"
                 f"\n✪ Make sure you read rules and follow them when you join Support Chat."
                 f"\n✪ Spamming in Support Chat, will reward you GBAN and reported to Telegram as well.\n"
                 f"\nTerms & Conditions can be changed anytime.",
@@ -578,9 +578,9 @@ def luna_about_callback(update, context):
 
     elif query.data == "luna_angjay":
         query.message.edit_text(
-            text=f"Luna is a powerful bot for managing groups with additional features.\n"
-              f"\nLuna's Licensed Under The GNU (General Public License v3.0)\n"
-              f"\nIf you have any question about Luna,"
+            text=f"Madara is a powerful bot for managing groups with additional features.\n"
+              f"\nMadara Licensed Under The GNU (General Public License v3.0)\n"
+              f"\nIf you have any question about Madara,"
               f"\nreach us at Support Chat.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -588,7 +588,7 @@ def luna_about_callback(update, context):
                 [
                   [
                      InlineKeyboardButton(text="Back", callback_data="luna_puqi"),
-                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/lunaXresso"),
+                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/Komisansupport"),
                   ]
                 ]
             ),
@@ -599,8 +599,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. ɪ'ᴀᴍ Lᴜɴᴀ*
-                 \nHere is the [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://www Xhamster.com) .""",
+            text=""" Hi.. ɪ'ᴀᴍ Madara*
+                 \nHere is the [Ot](https://t.me/Komisansupport) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
